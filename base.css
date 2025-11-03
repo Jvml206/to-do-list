@@ -1,0 +1,23 @@
+body {
+            display: flex;
+            height: 100vh;
+        }
+        .left-side {
+            flex: 1;
+            background: linear-gradient(135deg, #100296, #026a96, #0ac646);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-side {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-box {
+            width: 100%;
+            max-width: 380px;
+        }
