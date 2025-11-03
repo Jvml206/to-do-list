@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS usuario (
 CREATE TABLE IF NOT EXISTS lista (
     id INT AUTO_INCREMENT PRIMARY KEY,
     tarefa TEXT NOT NULL,
-    status ENUM('Concluída', 'Não Concluída') NOT NULL,
+    status ENUM('Concluída', 'Pendente') NOT NULL,
     fkIdUsuario INT NOT NULL,
     FOREIGN KEY (fkIdUsuario)
         REFERENCES usuario (id)
