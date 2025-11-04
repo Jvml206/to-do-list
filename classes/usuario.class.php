@@ -157,7 +157,7 @@ class Usuario extends CRUD
 
             $dados = $stmt->fetch(PDO::FETCH_OBJ);
 
-            if ($dados && password_verify($senhaAtual, $dados->senhaUsuario)) {
+            if ($dados && password_verify($senhaAtual, $dados->senha)) {
                 $novaSenhaHash = password_hash($novaSenha, PASSWORD_DEFAULT);
                 $query = "UPDATE $this->table SET senha = :novaSenha WHERE usuario = :usuario";
                 $stmt = $this->db->prepare($query);
