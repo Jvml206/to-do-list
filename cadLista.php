@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary px-4">
-        <div class="container-fluid d-flex justify-content-between align-items-center">
-            <a class="navbar-brand fw-bold text-white" href="index.php">HOME</a>
+    <nav class="navbar-custom">
+        <div class="container-navbar">
+            <a class="navbar-brand-custom" href="index.php">To-Do-List</a>
             <div class="d-flex align-items-center gap-3">
                 <a href="alterarSenha.php" title="Alterar Senha">
                     <img src="img/user.png" alt="Usuário" class="rounded-circle border border-light">

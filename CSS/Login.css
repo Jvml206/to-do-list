@@ -1,23 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
-            display: flex;
-            height: 100vh;
-        }
-        .left-side {
-            flex: 1;
-            background: linear-gradient(135deg, #100296, #026a96, #0ac646);
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .right-side {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .login-box {
-            width: 100%;
-            max-width: 380px;
-        }
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+}
+
+.left-side {
+    flex: 1;
+    background: linear-gradient(135deg, #0d1b3d, #0f4a6a, #00c47a);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 380px;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0069d9, #00a8e8);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 880px) {
+    body {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-side,
+    .right-side {
+        flex: none;
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .left-side {
+        padding: 3rem 2rem;
+    }
+
+    .login-box {
+        max-width: 90%;
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .left-side h1 {
+        font-size: 1.8rem;
+    }
+
+    .left-side p {
+        font-size: 0.95rem;
+    }
+
+    .login-box {
+        padding: 1.2rem;
+    }
+
+    .btn-primary {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+    }
+}
