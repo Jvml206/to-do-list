@@ -1,18 +1,11 @@
-# To-do-list
+# 📚 Projeto To-do-list
 Criadores:
 
-João Paulo Sá Ribas Santos
-João Victor Machado lopes
-Verediane Mazutti Filomeno
-
-# 📚 Projeto To-do-list
-
-## 👫 Integrantes do Grupo
-- **Aluno 1 - Isabela da Silva Santos** - Responsável por: Requisitos não funcionais
-- **Aluno 2 - João Paulo Sá Ribas Santos** - Responsável por: Criar os códigos
-- **Aluno 3 - João Victor Machado Lopes** - Responsável por: Banco de dados
-- **Aluno 4 - Kamilla Gonçalves Kempim** - Responsável por: Requisitos funcionais
-- **Aluno 5 - Verediane Mazutti Filomeno** - Responsável por: CSS 
+- **Isabela da Silva Santos** - Responsável por: Requisitos não funcionais
+- **João Paulo Sá Ribas Santos** - Responsável por: Criar os códigos
+- **João Victor Machado Lopes** - Responsável por: Banco de dados
+- **Kamilla Gonçalves Kempim** - Responsável por: Requisitos funcionais
+- **Verediane Mazutti Filomeno** - Responsável por: CSS 
 
 ---
 
