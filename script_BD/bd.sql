@@ -1,10 +1,10 @@
-CREATE DATABASE if not exists To_do_list;
+CREATE DATABASE To_do_list;
 USE To_do_list;
 
 CREATE TABLE IF NOT EXISTS usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario VARCHAR(100) NOT NULL,
-    senha VARCHAR(50) NOT NULL
+    senha VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS lista (
